@@ -1,0 +1,120 @@
+body {
+    background: url(../images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #D2CDC4;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+}
+.container {
+    height: 200vh;
+}
+.transpBackground {
+    width: 55%;
+    border-radius: 20px;
+    background: rgba(000, 000, 000, 0.4);
+    margin: 0 auto;
+    padding: 50px;
+}
+.jumbotron {
+    height: 200px;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 10vh;
+}
+.add-color {
+    color: yellow;
+}
+span {
+    color: yellow;
+}
+a {
+    transition: .2s;
+}
+a:hover {
+    color: white;
+    font-size: 22px;
+}
+a:hover i {
+    color: yellow;
+}
+.search-container {
+    margin-top: 70vh;
+    height: 300px;
+    overflow: auto;
+    text-shadow: 4px 4px 4px black;
+}
+button {
+    display: block;
+    margin: 20px auto 0;
+    font-size: 16px;
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    transition: .3s;
+    background-color: yellow;
+}
+button:hover {
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+i.fa {
+    transition: .3s;
+}
+button:hover i.fa {
+    font-size: 18px;
+}
+input {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+input:focus {
+    outline: none;
+}
+.link {
+    text-decoration: none;
+    color: #D2CDC4;
+    font-size: 20px;
+}
+ul {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .transpBackground {
+        width: 90vw;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .jumbotron {
+        height: 150px;
+    }
+    h1 {
+        font-size: 20px;
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+    .link {
+        visibility: hidden;
+    }
+    .container {
+        height: 100vh;
+    }
+
+    .search-container {
+        margin-top: 3vh;
+        height: 250px
+    }
+    ul {
+        font-size: 18px;
+    }
+    button {
+        margin: 10px auto 0;
+        height: 40px;
+        width: 100px;
+    }
+}

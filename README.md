@@ -2,7 +2,7 @@
 <p> Nico is a great traveler.
 He visited all the coutries in the whole world. 
 
-He fell in love with big cities and money and he remembers all of them! 
+He fell in love with capital cities and foreign exchange and he remembers all of them! 
 
 You don't have to believe me. Ask him ;) </p>
 

@@ -38,7 +38,7 @@ a:hover i {
     color: yellow;
 }
 .search-container {
-    margin-top: 70vh;
+    margin-top: 5vh;
     height: 300px;
     overflow: auto;
     text-shadow: 4px 4px 4px black;
